@@ -1,0 +1,45 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment (just in case)
+venv/
+.env/
+
+# VSCode & Codespaces settings
+.vscode/
+.devcontainer/
+
+# Logs and test cache
+*.log
+*.sqlite3
+.pytest_cache/
+coverage/
+
+# Environment files
+.env
+*.env
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Node modules (for frontend if using React)
+node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/dist/
+frontend/package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
